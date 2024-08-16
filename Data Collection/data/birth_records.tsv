@@ -1,0 +1,25 @@
+record_id	region	month	day	number_of_births
+1	Île-de-France	January	1	150
+2	Île-de-France	January	2	145
+3	Île-de-France	February	1	140
+4	Île-de-France	February	2	130
+5	Auvergne-Rhône-Alpes	March	1	120
+6	Auvergne-Rhône-Alpes	March	2	110
+7	Provence-Alpes-Côte d'Azur	April	1	100
+8	Provence-Alpes-Côte d'Azur	April	2	95
+9	Occitanie	May	1	90
+10	Occitanie	May	2	85
+11	Nouvelle-Aquitaine	June	1	80
+12	Nouvelle-Aquitaine	June	2	75
+13	Hauts-de-France	July	1	70
+14	Hauts-de-France	July	2	65
+15	Bretagne	August	1	60
+16	Bretagne	August	2	55
+17	Normandie	September	1	50
+18	Normandie	September	2	45
+19	Grand Est	October	1	40
+20	Grand Est	October	2	35
+21	Bourgogne-Franche-Comté	November	1	30
+22	Bourgogne-Franche-Comté	November	2	25
+23	Centre-Val de Loire	December	1	20
+24	Centre-Val de Loire	December	2	15

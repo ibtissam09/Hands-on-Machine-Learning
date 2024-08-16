@@ -1,0 +1,11 @@
+house_id,location,bedrooms,bathrooms,square_footage,price
+1,New York,3,2,1500,850000
+2,Los Angeles,4,3,2500,1200000
+3,Chicago,2,1,900,300000
+4,Houston,3,2,2000,450000
+5,Miami,4,3,2100,700000
+6,San Francisco,2,2,1100,950000
+7,Seattle,3,2,1600,600000
+8,Boston,2,1,1200,500000
+9,Denver,3,2,1800,550000
+10,San Diego,4,3,2300,1100000

@@ -1,0 +1,42 @@
+[
+    {
+        "patient_id": "P001",
+        "name": "John Doe",
+        "age": 45,
+        "gender": "Male",
+        "diagnosis": "Hypertension",
+        "treatment": "Medication"
+    },
+    {
+        "patient_id": "P002",
+        "name": "Jane Smith",
+        "age": 38,
+        "gender": "Female",
+        "diagnosis": "Diabetes",
+        "treatment": "Insulin"
+    },
+    {
+        "patient_id": "P003",
+        "name": "Emily Davis",
+        "age": 50,
+        "gender": "Female",
+        "diagnosis": "Hyperlipidemia",
+        "treatment": "Lifestyle changes"
+    },
+    {
+        "patient_id": "P004",
+        "name": "Michael Brown",
+        "age": 62,
+        "gender": "Male",
+        "diagnosis": "Coronary Artery Disease",
+        "treatment": "Surgery"
+    },
+    {
+        "patient_id": "P005",
+        "name": "Jessica Wilson",
+        "age": 29,
+        "gender": "Female",
+        "diagnosis": "Asthma",
+        "treatment": "Inhaler"
+    }
+]

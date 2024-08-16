@@ -1,0 +1,51 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Data Collection using R
+
+Import libraries
+
+```{r}
+library(httr)
+library(rvest)
+library(dplyr)
+```
+
+Define the link you want to scrape
+
+```{r}
+# URL of the web page
+url <- 'http://books.toscrape.com/catalogue/category/books_1/index.html'
+
+```
+
+Get the html code of the webpage
+
+```{r}
+# Fetch the web page
+webpage <- GET(url)
+
+# Parse the HTML
+content <- content(webpage, as = 'text')
+parsed_html <- read_html(content)
+```
+
+Extract title, prices and availabilities
+
+```{r}
+# Extract data (example: book titles, prices, and availability)
+titles <- parsed_html %>% html_nodes('.product_pod h3 a') %>% html_attr('title')
+prices <- parsed_html %>% html_nodes('.product_pod .price_color') %>% html_text()
+availabilities <- parsed_html %>% html_nodes('.product_pod .instock.availability') %>% html_text(trim = TRUE)
+
+```
+
+```{r}
+# Create a DataFrame
+df <- data.frame(Title = titles, Price = prices, Availability = availabilities)
+
+# Display the DataFrame
+print(head(df))
+```
