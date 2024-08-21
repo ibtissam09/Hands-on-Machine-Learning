@@ -29,7 +29,7 @@
 
 
 # Part 2: Importing Data from PostgreSQL
-# Install and load the RPostgreSQL package if not already installed
+# Install and load the RPostgres package if not already installed
 
 
 # Establishing the connection to PostgreSQL
