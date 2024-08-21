@@ -30,14 +30,15 @@ website_sales_data <- read_excel('websites_sales.xlsx', sheet = 'SalesData')
 head(website_sales_data)
 
 # Part 2: Importing Data from PostgreSQL
-# Install and load the RPostgreSQL package if not already installed
-if(!require(RPostgreSQL)) install.packages("RPostgreSQL")
-library(RPostgreSQL)
+# Install and load the RPostgres package if not already installed
+if(!require(RPostgres)) install.packages('RPostgres')
+library(RPostgres)
 
 # Establishing the connection to PostgreSQL
-drv <- dbDriver("PostgreSQL")
-con <- dbConnect(drv, dbname = "ecommerce", host = "localhost", 
-                 port = 5432, user = "your_username", password = "your_password")
+con <- dbConnect(RPostgres::Postgres(), dbname = "ecommerce", host = "localhost", 
+                 port = 5432, user = "postgres", password = "root")
+
+cat("Connected to PostgreSQL successfully")
 
 # Querying data from the customers table
 query <- "SELECT * FROM customers"
