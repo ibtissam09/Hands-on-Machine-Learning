@@ -1,4 +1,3 @@
-
 Data Exploration/data/.DS_Store
 Data Exploration/R/.Rhistory
 Data Exploration/.DS_Store
@@ -10,3 +9,5 @@ Data Preparation/Python/generate_data.ipynb
 Data Preparation/.DS_Store
 Data Preparation/data/.DS_Store
 Data Preparation/Python/.DS_Store
+.Rproj.user
+Hands-on-Machine-Learning.Rproj
