@@ -3,7 +3,7 @@ library(dplyr)
 
 # Step 1: Load the data
 # Read the CSV file into a DataFrame
-df <- read.csv("../data/students.csv")
+df <- read.csv("students.csv")
 head(df)
 
 # Step 2: Identify missing values
