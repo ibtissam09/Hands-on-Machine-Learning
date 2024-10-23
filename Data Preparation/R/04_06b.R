@@ -9,7 +9,6 @@ library(caret)
 
 # Standardize the data
 
-
 # Apply PCA
 
 
@@ -20,4 +19,8 @@ library(caret)
 
 
 # Plot the PCA results
+library(ggplot2)
+ggplot(pca_df, aes(x=PC1, y= PC2, color = Target))+
+  geom_point() +
+  ggtitle("PCA on the Breast Cancer Dataset")
 
